@@ -1,40 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,700&display=swap');
+@font-face {
+  font-family: SquidGame;
+  src: url(Game Of Squids.ttf);
+}
 body {
-  font-family:'Ubuntu',sans-serif;
-  background-color:#1f4068;
-}
-.icon {
-  display: inline-block;
-  vertical-align: middle;
-  padding: 0 2px 0 2px;
-}
-.icon-m-online {
-  width: 10px;
-  height: 12px;
-  background: url('sprites.png') -40px -42px;
-}
-.icon-m-offline {
-  width: 12px;
-  height: 12px;
-  background: url('sprites.png') -10px -42px;
-}
-.icon-t-online {
-  width: 12px;
-  height: 12px;
-  background: url('sprites.png') -42px -10px;
-}
-.icon-t-offline {
-  width: 12px;
-  height: 12px;
-  background: url('sprites.png') -10px -10px;
-}
-.icon-blank {
-  width: 12px;
-  height: 12px;
-}
-.icon,.playerHead {
-  image-rendering: crisp-edges;
-  image-rendering: pixelated;
+  font-family: SquidGame;
+  background-color: #060607;
 }
 .playerHead {
   width: 24px;
@@ -51,7 +21,7 @@ body {
 }
 body {
   margin: 0;
-  color: white;
+  color: #f2f1ef;
 }
 .container {
   display: flex;
@@ -60,7 +30,6 @@ body {
 }
 .embedwrapper {
   flex: 80;
-  background: #1f4068;
 }
 .streams {
   display: flex;
@@ -78,7 +47,7 @@ iframe {
 }
 .information {
   flex: 20;
-  background-color: #162447;
+  background-color: #27282b;
   display: flex;
   flex-direction: column;
 }
@@ -94,8 +63,7 @@ iframe {
 h1 {
   text-align: center;
   font-size: 10vmax;
-  font-style: italic;
-  color: #162447;
+  color: #eeefef;
   width: 100%;
 }
 .icons {
@@ -105,7 +73,7 @@ input[type="checkbox"] {
   vertical-align: middle;
 }
 .header {
-  background-color: #265288;
+  background-color: #232427;
   padding: 5px;
 }
 .hide,.show {color: #fff;
@@ -121,7 +89,7 @@ input[type="checkbox"] {
   display: none;
 }
 .button.active {
-  background-color: #244775;
+  background-color: #248045;
   font-weight: bold;
 }
 .menu {
@@ -129,7 +97,7 @@ input[type="checkbox"] {
   justify-content: center;
 }
 .button {
-  background-color: #1f4068;
+  background-color: #248045;
   display: inline-block;
   margin: 2px;
   padding: 5px;
@@ -182,8 +150,8 @@ a {
 }
 select {
   font-size: 20px;
-  background: #1f4068;
+  background: #248045;
   color: white;
-  border: 5px solid #162447;
+  border: 5px solid #19552e;
   border-radius: 20px;
 }
