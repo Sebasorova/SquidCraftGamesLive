@@ -1,5 +1,5 @@
 //toggling stream visibility, the streams won't load the the start if you don't enable them
-function toggle(elementId) {
+function toggleElement(elementId) {
   var element = document.getElementById(elementId);
   if (!element) {
     console.log("Element not found: " + elementId);
