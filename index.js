@@ -9,3 +9,9 @@ function toggle(element) {
     document.body.appendChild(textNode);
   }
 }
+
+function test(stuff) {
+  console.log(stuff);
+}
+
+test("Javascript loaded");
