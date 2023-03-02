@@ -1,9 +1,9 @@
 @font-face {
   font-family: SquidGame;
-  src: url(Game Of Squids.ttf);
+  src: url('Game Of Squids.ttf');
 }
 body {
-  font-family: 'SquidGame';
+  font-family: SquidGame;
   background-color: #060607;
 }
 .playerHead {
