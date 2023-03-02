@@ -28,11 +28,22 @@ body {
   width: 100vw;
   height: 100vh;
 }
+.embedwrapper {
+  flex: 80;
+}
 .streams {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
+  height: 100%;
+}
+iframe {
+  border: 0;
+  height: 100%;
+}
+.streams iframe {
+  width: 100%;
+  flex-grow: 1;
+  height: initial;
 }
 .information {
   flex: 20;
