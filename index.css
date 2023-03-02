@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,700&display=swap');
+body {
+  font-family:'Ubuntu',sans-serif;
+  background-color:#1f4068;
+}
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 2px 0 2px;
+}
+.icon-m-online {
+  width: 10px;
+  height: 12px;
+  background: url('sprites.png') -40px -42px;
+}
+.icon-m-offline {
+  width: 12px;
+  height: 12px;
+  background: url('sprites.png') -10px -42px;
+}
+.icon-t-online {
+  width: 12px;
+  height: 12px;
+  background: url('sprites.png') -42px -10px;
+}
+.icon-t-offline {
+  width: 12px;
+  height: 12px;
+  background: url('sprites.png') -10px -10px;
+}
+.icon-blank {
+  width: 12px;
+  height: 12px;
+}
+.icon,.playerHead {
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}
+.playerHead {
+  width: 24px;
+  vertical-align: middle;
+}
+.playerName{
+  padding: 0 10px 0 10px;
+}
+.player {
+  padding: 3px;
+}
+.player:nth-child(even) {
+  background-color: #1f4068;
+}
+body {
+  margin: 0;
+  color: white;
+}
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+.embedwrapper {
+  flex: 80;
+  background: #1f4068;
+}
+.streams {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+iframe {
+  border: 0;
+  height: 100%;
+}
+.streams iframe {
+  width: 100%;
+  flex-grow: 1;
+  height: initial;
+}
+.information {
+  flex: 20;
+  background-color: #162447;
+  display: flex;
+  flex-direction: column;
+}
+.chat {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+.info {
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+  font-size: 10vmax;
+  font-style: italic;
+  color: #162447;
+  width: 100%;
+}
+.icons {
+  float: right;
+}
+input[type="checkbox"] {
+  vertical-align: middle;
+}
+.header {
+  background-color: #265288;
+  padding: 5px;
+}
+.hide,.show {color: #fff;
+  text-decoration: none;
+  float: right;
+}
+.show {
+  text-align: right;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  display: none;
+}
+.button.active {
+  background-color: #244775;
+  font-weight: bold;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+}
+.button {
+  background-color: #1f4068;
+  display: inline-block;
+  margin: 2px;
+  padding: 5px;
+}
+.embed {
+  display: none;
+}
+.embed,.embed iframe {
+  height: 100%;
+  width: 100%;
+}
+.info a {
+  color: #fff;
+}
+.onMobile {
+  display: none;
+}
+a {
+  color: white;
+}
+@media only screen and (max-width:768px) {
+  .streams {
+    display: none;
+  }
+  .streaming {
+    background-color: #681f1f !important;
+  }
+  .information {
+    flex: none;
+    width: 100%;
+  }
+  input[type="checkbox"] {
+    display: none;
+  }
+  .onMobile {
+    display: block;
+  }
+  .menu {
+    display: none;
+  }
+}
+a {
+  text-align: center;
+}
+.data {
+  display: none;
+}
+.player.streaming .playerName,.player.streaming .playerHead {
+  cursor: pointer;
+}
+select {
+  font-size: 20px;
+  background: #1f4068;
+  color: white;
+  border: 5px solid #162447;
+  border-radius: 20px;
+}
