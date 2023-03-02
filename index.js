@@ -7,12 +7,7 @@ function toggle(elementId) {
   }
   if (element.style.display === "block") {
     element.style.display = "none";
-  } else if (element.style.display === "none") {
+  } else (element.style.display === "none") {
     element.style.display = "block";
-  } else {
-    var textNode = document.createTextNode(
-      "Error while loading some of the streams (Error 0)"
-    );
-    document.body.appendChild(textNode);
   }
 }
