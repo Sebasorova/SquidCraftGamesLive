@@ -5,9 +5,9 @@ function toggle(elementId) {
     console.log("Element not found: " + elementId);
     return;
   }
-  if (element.style.display === "block") {
-    element.style.display = "none";
-  } else (element.style.display === "none") {
+  if (element.style.display === "none") {
     element.style.display = "block";
+  } else {
+    element.style.display = "none";
   }
 }
