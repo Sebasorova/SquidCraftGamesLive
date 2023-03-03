@@ -45,8 +45,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
   gap: 20px;
-  height: 100%;
-  width: 100%;
 }
 iframe {
   border: 0;
