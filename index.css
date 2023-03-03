@@ -34,17 +34,17 @@ body {
 .embedwrapper {
   flex: 80;
 }
-.streams iframe {
-  display: none;
-  display: flex;
-  flex-grow: 1;
-  margin: 0 10px;
+iframe {
+  flex: 0 0 calc(20% - 10px);
+  height: calc(20% - 10px);
+  margin: 5px;
 }
 .streams {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
-  gap: 20px;
+  align-content: space-between;
+  height: 100vh;
 }
 iframe {
   border: 0;
