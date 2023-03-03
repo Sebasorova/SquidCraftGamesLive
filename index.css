@@ -9,19 +9,6 @@ body {
 .header {
   font-size: 24px;
 }
-.playerHead {
-  width: 24px;
-  vertical-align: middle;
-}
-.playerName{
-  padding: 0 10px 0 10px;
-}
-.player {
-  padding: 3px;
-}
-.player:nth-child(even) {
-  background-color: #1f4068;
-}
 body {
   margin: 0;
   color: #f2f1ef;
@@ -52,11 +39,6 @@ iframe {
 iframe {
   border: 0;
   height: 100%;
-}
-.streams iframe {
-  width: 100%;
-  flex-grow: 1;
-  height: initial;
 }
 .information {
   flex: 20;
