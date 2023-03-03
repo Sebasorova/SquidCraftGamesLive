@@ -35,8 +35,8 @@ body {
   flex: 80;
 }
 iframe {
-  flex: 0 0 calc(20% - 10px);
-  height: calc(20% - 10px);
+  flex: 1 0 calc(40% - 10px);
+  height: calc(40% - 10px);
   margin: 0px;
   width: 100%;
   height: 100%;
