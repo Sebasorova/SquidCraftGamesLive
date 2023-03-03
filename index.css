@@ -37,7 +37,9 @@ body {
 iframe {
   flex: 0 0 calc(20% - 10px);
   height: calc(20% - 10px);
-  margin: 5px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
 }
 .streams {
   display: flex;
