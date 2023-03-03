@@ -4,10 +4,13 @@ function toggleElement(elementId) {
     console.log("Element not found: " + elementId);
     return;
   }
-  if (element.style.visibility === "hidden") {
-    element.style.visibility = "visible";
+  if (element.style.display === "block") {
+    // Hide the element by removing it from the DOM
+    element.remove();
   } else {
-    element.style.visibility = "hidden";
+    // Show the element by adding it back to the DOM
+    var container = document.querySelector(".streams");
+    container.appendChild(element);
   }
   // reorganize the iframes using flexbox
   var streams = document.querySelector(".streams");
