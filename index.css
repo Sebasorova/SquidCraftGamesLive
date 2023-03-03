@@ -33,6 +33,7 @@ iframe {
   justify-content: space-between;
   align-content: space-between;
   height: 100vh;
+  width: 80vh;
 }
 iframe {
   border: 0;
