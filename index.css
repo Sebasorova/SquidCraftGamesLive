@@ -39,6 +39,8 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+  height: 100%;
+  width: 100%;
 }
 iframe {
   border: 0;
