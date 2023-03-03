@@ -19,7 +19,7 @@ function toggleElement(elementId) {
   var streamContainers = document.querySelectorAll(".stream-container");
   var numStreams = streamContainers.length;
   for (var i = 0; i < numStreams; i++) {
-    streamContainers[i].style.width = "50%";
-    streamContainers[i].style.height = "50vh";
+    streamContainers[i].style.width = "100%";
+    streamContainers[i].style.height = "100%";
   }
 }
