@@ -25,24 +25,20 @@ body {
   flex: 80;
 }
 iframe {
+  border: 0;
   display: none;
-  flex: 1 0 0;
-  /*height: calc(50%);*/
+  flex: 1 0 auto;
+  height: auto;
   width: 100%;
   margin: 0px;
 }
 .streams {
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-content: space-between;
+  -webkit-flex-flow: row;
+  justify-content: space-around;
   height: 100vh;
   width: 80vw;
-}
-iframe {
-  border: 0;
-  height: 100%;
 }
 .information {
   flex: 20;
