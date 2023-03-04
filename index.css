@@ -27,8 +27,8 @@ body {
 iframe {
   border: 0;
   display: none;
-  flex: 1 0 auto;
-  height: auto;
+  flex: 1 0 0;
+  height: 100%;
   width: 100%;
   margin: 0px;
 }
