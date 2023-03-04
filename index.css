@@ -36,7 +36,9 @@ iframe {
   display: flex;
   flex-wrap: wrap;
   -webkit-flex-flow: row;
+  flex-basis: auto;
   justify-content: space-around;
+  align-content: stretch;
   height: 100vh;
   width: 80vw;
 }
