@@ -2,6 +2,9 @@
   font-family: SquidGame;
   src: url('Game Of Squids.ttf');
 }
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: SquidGame;
   background-color: #060607;
@@ -29,6 +32,7 @@ iframe {
 }
 .streams {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: space-between;
