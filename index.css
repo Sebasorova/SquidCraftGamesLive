@@ -28,6 +28,7 @@ iframe {
   display: none;
   flex: 1 0 0;
   /*height: calc(50%);*/
+  width: 100%;
   margin: 0px;
 }
 .streams {
