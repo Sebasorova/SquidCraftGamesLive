@@ -23,13 +23,12 @@ body {
 }
 iframe {
   display: none;
-  flex: 1 0 calc(50%);
-  height: calc(50%);
+  flex: 1 0 0;
+  /*height: calc(50%);*/
   margin: 0px;
 }
 .streams {
   display: flex;
-  flex: 1 0 0;
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: space-between;
