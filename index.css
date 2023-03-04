@@ -23,21 +23,31 @@ body {
 }
 iframe {
   display: none;
-  flex: 1 0 0;
-  /*height: calc(50%);*/
-  margin: 0px;
+  border: 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
 }
 .streams {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: space-between;
-  height: 100vh;
+  height: 100%;
+  max-height: calc(100vh - 100px);
   width: 80vw;
+  max-width: calc(80vw - 20px);
+  flex: 1 0 0;
 }
 iframe {
   border: 0;
   height: 100%;
+}
+@media only screen and (max-width: 480px) {
+  .streams {
+    flex-direction: column;
+  }
 }
 .information {
   flex: 20;
