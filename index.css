@@ -19,6 +19,7 @@ body {
 .players {
   display: flex;
   flex-flow: row;
+  width: 100%;
 }
 .container {
   display: flex;
