@@ -16,6 +16,10 @@ body {
   margin: 0;
   color: #f2f1ef;
 }
+.players {
+  display: flex;
+  flex-flow: row;
+}
 .container {
   display: flex;
   width: 100vw;
