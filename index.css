@@ -17,9 +17,8 @@ body {
   color: #f2f1ef;
 }
 .players {
-  display: flex;
-  flex-flow: row;
-  width: 100%;
+  display: grid;
+  grid-gap: 10px;
 }
 .container {
   display: flex;
@@ -36,6 +35,8 @@ iframe {
   height: 100%;
   width: 100%;
   margin: 0px;
+  align-content: stretch;
+  flex-wrap: wrap;
 }
 .streams {
   display: flex;
